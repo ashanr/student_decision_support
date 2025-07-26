@@ -1,0 +1,19 @@
+# Python package requirements for Student DSS application
+
+# Data analysis and manipulation
+pandas>=1.0.0
+numpy>=1.18.0
+scikit-learn>=0.22.0
+
+# Visualization
+matplotlib>=3.1.0
+
+# Web application
+flask>=2.0.0
+flask-cors>=3.0.0
+
+# Command-line interface
+tabulate>=0.8.7
+colorama>=0.4.3
+# Utilities
+python-dotenv==1.0.0
