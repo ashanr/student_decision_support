@@ -1,0 +1,11 @@
+field_of_study,count,avg_tuition_budget,top_destination,avg_match_percentage,avg_satisfaction
+Computer Science,45,40000,United States,91.2,8.7
+Business,32,55000,United Kingdom,88.5,8.2
+Engineering,28,35000,Germany,90.3,8.9
+Medicine,15,45000,Australia,86.7,8.1
+Environmental Sciences,12,25000,Sweden,91.5,9.2
+Finance,10,50000,United States,87.4,8.0
+Literature,8,20000,France,88.9,8.5
+Economics,7,40000,United Kingdom,85.3,7.9
+Law,6,45000,United States,84.1,7.8
+Psychology,5,30000,Canada,87.2,8.3

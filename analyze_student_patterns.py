@@ -40,6 +40,10 @@ def analyze_destination_popularity(data):
     print("\n=== POPULAR DESTINATION COUNTRIES ===")
     print(destination_counts.head(10))
     
+    # Create results directory if it doesn't exist
+    results_dir = os.path.join(os.path.dirname(__file__), "results")
+    os.makedirs(results_dir, exist_ok=True)
+    
     # Create bar chart
     plt.figure(figsize=(12, 6))
     destination_counts.head(10).plot(kind='bar', color='skyblue')
@@ -47,8 +51,11 @@ def analyze_destination_popularity(data):
     plt.xlabel('Country')
     plt.ylabel('Number of Students')
     plt.tight_layout()
-    plt.savefig('destination_popularity.png')
-    print("Chart saved as 'destination_popularity.png'")
+    
+    # Save to results directory
+    result_path = os.path.join(results_dir, "destination_popularity.png")
+    plt.savefig(result_path)
+    print(f"Chart saved as '{result_path}'")
 
 def analyze_university_tiers(data):
     """Analyze the distribution of university tiers chosen by students."""
@@ -70,8 +77,11 @@ def analyze_university_tiers(data):
     plt.title('University Tier Distribution')
     plt.axis('equal')  # Equal aspect ratio ensures that pie is drawn as a circle
     plt.tight_layout()
-    plt.savefig('university_tiers.png')
-    print("Chart saved as 'university_tiers.png'")
+    
+    # Save to results directory
+    result_path = os.path.join(os.path.dirname(__file__), "results", "university_tiers.png")
+    plt.savefig(result_path)
+    print(f"Chart saved as '{result_path}'")
 
 def analyze_satisfaction_factors(data):
     """Analyze factors that correlate with high decision satisfaction."""
@@ -108,8 +118,11 @@ def analyze_satisfaction_factors(data):
     sns.heatmap(corr_data, annot=True, cmap='coolwarm', vmin=-1, vmax=1)
     plt.title('Correlation between Factors and Decision Satisfaction')
     plt.tight_layout()
-    plt.savefig('satisfaction_correlations.png')
-    print("Chart saved as 'satisfaction_correlations.png'")
+    
+    # Save to results directory
+    result_path = os.path.join(os.path.dirname(__file__), "results", "satisfaction_correlations.png")
+    plt.savefig(result_path)
+    print(f"Chart saved as '{result_path}'")
 
 def analyze_field_popularity(data):
     """Analyze which fields of study are most popular."""
@@ -130,8 +143,11 @@ def analyze_field_popularity(data):
     plt.xlabel('Number of Students')
     plt.ylabel('Field')
     plt.tight_layout()
-    plt.savefig('field_popularity.png')
-    print("Chart saved as 'field_popularity.png'")
+    
+    # Save to results directory
+    result_path = os.path.join(os.path.dirname(__file__), "results", "field_popularity.png")
+    plt.savefig(result_path)
+    print(f"Chart saved as '{result_path}'")
 
 def analyze_budget_patterns(data):
     """Analyze patterns in student budgets and their choices."""
@@ -160,8 +176,11 @@ def analyze_budget_patterns(data):
     plt.colorbar(label='Satisfaction Score' if 'decision_satisfaction_score' in data.columns else None)
     plt.grid(True, alpha=0.3)
     plt.tight_layout()
-    plt.savefig('budget_patterns.png')
-    print("Chart saved as 'budget_patterns.png'")
+    
+    # Save to results directory
+    result_path = os.path.join(os.path.dirname(__file__), "results", "budget_patterns.png")
+    plt.savefig(result_path)
+    print(f"Chart saved as '{result_path}'")
 
 def main():
     """Main function to run all analyses."""

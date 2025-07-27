@@ -1,0 +1,206 @@
+id,name,country_id,city_id,city,country,ranking_global,ranking_national,student_count,established_year,website
+1,Massachusetts Institute of Technology,1,4,Boston,United States,1,1,11000,1861,http://www.mit.edu/
+2,Harvard University,1,4,Boston,United States,2,2,23000,1636,https://www.harvard.edu/
+3,Stanford University,1,5,San Francisco,United States,3,3,17000,1885,https://www.stanford.edu/
+4,California Institute of Technology,1,2,Los Angeles,United States,4,4,2200,1891,https://www.caltech.edu/
+5,University of Chicago,1,3,Chicago,United States,6,5,16000,1890,https://www.uchicago.edu/
+6,Princeton University,1,1,New York,United States,7,6,8500,1746,https://www.princeton.edu/
+7,Columbia University,1,1,New York,United States,8,7,31000,1754,https://www.columbia.edu/
+8,Yale University,1,4,Boston,United States,9,8,13000,1701,https://www.yale.edu/
+9,University of Pennsylvania,1,9,Philadelphia,United States,13,9,22000,1740,https://www.upenn.edu/
+10,University of California Berkeley,1,5,San Francisco,United States,15,10,42000,1868,https://www.berkeley.edu/
+11,University of Oxford,2,17,Oxford,United Kingdom,5,1,24000,1096,https://www.ox.ac.uk/
+12,University of Cambridge,2,15,Cambridge,United Kingdom,7,2,20000,1209,https://www.cam.ac.uk/
+13,Imperial College London,2,10,London,United Kingdom,10,3,19000,1907,https://www.imperial.ac.uk/
+14,University College London,2,10,London,United Kingdom,16,4,38000,1826,https://www.ucl.ac.uk/
+15,London School of Economics,2,10,London,United Kingdom,27,5,11000,1895,https://www.lse.ac.uk/
+16,University of Edinburgh,2,12,Edinburgh,United Kingdom,30,6,36000,1583,https://www.ed.ac.uk/
+17,King's College London,2,10,London,United Kingdom,33,7,29000,1829,https://www.kcl.ac.uk/
+18,University of Manchester,2,11,Manchester,United Kingdom,35,8,40000,1824,https://www.manchester.ac.uk/
+19,University of Toronto,3,18,Toronto,Canada,18,1,93000,1827,https://www.utoronto.ca/
+20,University of British Columbia,3,19,Vancouver,Canada,34,2,66000,1908,https://www.ubc.ca/
+21,McGill University,3,20,Montreal,Canada,31,3,40000,1821,https://www.mcgill.ca/
+22,University of Melbourne,4,27,Melbourne,Australia,37,1,52000,1853,https://www.unimelb.edu.au/
+23,Australian National University,4,31,Canberra,Australia,29,2,22000,1946,https://www.anu.edu.au/
+24,University of Sydney,4,26,Sydney,Australia,40,3,70000,1850,https://www.sydney.edu.au/
+25,University of Auckland,5,33,Auckland,New Zealand,85,1,42000,1883,https://www.auckland.ac.nz/
+26,University of Otago,5,37,Dunedin,New Zealand,184,2,21000,1869,https://www.otago.ac.nz/
+27,Victoria University of Wellington,5,34,Wellington,New Zealand,236,3,22000,1897,https://www.wgtn.ac.nz/
+28,Ludwig Maximilians University Munich,6,39,Munich,Germany,32,1,52000,1472,https://www.lmu.de/en/
+29,Technical University of Munich,6,39,Munich,Germany,41,2,42000,1868,https://www.tum.de/en/
+30,Heidelberg University,6,45,Heidelberg,Germany,54,3,30000,1386,https://www.uni-heidelberg.de/en
+31,Sorbonne University,7,46,Paris,France,83,1,43000,1257,https://www.sorbonne-universite.fr/en
+32,Paris Sciences et Lettres,7,46,Paris,France,40,2,17000,2010,https://psl.eu/en
+33,Ecole Polytechnique,7,46,Paris,France,68,3,3000,1794,https://www.polytechnique.edu/en
+34,University of Amsterdam,8,54,Amsterdam,Netherlands,55,1,30000,1632,https://www.uva.nl/en
+35,Utrecht University,8,56,Utrecht,Netherlands,69,2,30000,1636,https://www.uu.nl/en
+36,Trinity College Dublin,9,62,Dublin,Ireland,101,1,18000,1592,https://www.tcd.ie/
+37,University College Dublin,9,62,Dublin,Ireland,177,2,33000,1854,https://www.ucd.ie/
+38,Sapienza University of Rome,10,66,Rome,Italy,153,1,112000,1303,https://www.uniroma1.it/en
+39,University of Bologna,10,69,Bologna,Italy,160,2,87000,1088,https://www.unibo.it/en
+40,Complutense University of Madrid,11,72,Madrid,Spain,206,1,86000,1293,https://www.ucm.es/english
+41,University of Barcelona,11,73,Barcelona,Spain,183,2,73000,1450,https://www.ub.edu/web/portal/en/
+42,ETH Zurich,12,78,Zurich,Switzerland,11,1,22000,1855,https://ethz.ch/en.html
+43,EPFL,12,80,Lausanne,Switzerland,19,2,12000,1853,https://www.epfl.ch/en/
+44,Karolinska Institute,13,83,Stockholm,Sweden,42,1,6000,1810,https://ki.se/en
+45,Uppsala University,13,85,Uppsala,Sweden,111,2,44000,1477,https://www.uu.se/en
+46,University of Copenhagen,14,87,Copenhagen,Denmark,79,1,38000,1479,https://www.ku.dk/english/
+47,Technical University of Denmark,14,87,Copenhagen,Denmark,103,2,13000,1829,https://www.dtu.dk/english
+48,University of Oslo,15,90,Oslo,Norway,126,1,28000,1811,https://www.uio.no/english/
+49,University of Helsinki,16,93,Helsinki,Finland,104,1,31000,1640,https://www.helsinki.fi/en
+50,University of Tokyo,17,96,Tokyo,Japan,24,1,28000,1877,https://www.u-tokyo.ac.jp/en/
+51,Kyoto University,17,98,Kyoto,Japan,33,2,22000,1897,https://www.kyoto-u.ac.jp/en/
+52,National University of Singapore,18,102,Singapore,Singapore,11,1,38000,1905,https://www.nus.edu.sg/
+53,Seoul National University,19,103,Seoul,South Korea,36,1,28000,1946,https://en.snu.ac.kr/
+54,Peking University,20,106,Beijing,China,17,1,30000,1898,http://english.pku.edu.cn/
+55,Tsinghua University,20,106,Beijing,China,14,2,36000,1911,https://www.tsinghua.edu.cn/en/
+56,University of Vienna,21,111,Vienna,Austria,151,1,94000,1365,https://www.univie.ac.at/en/
+57,KU Leuven,22,118,Leuven,Belgium,70,1,60000,1425,https://www.kuleuven.be/english/
+58,University of Lisbon,23,119,Lisbon,Portugal,317,1,47000,1911,https://www.ulisboa.pt/en
+59,University of Warsaw,24,122,Warsaw,Poland,321,1,45000,1816,https://en.uw.edu.pl/
+60,Charles University,25,126,Prague,Czech Republic,266,1,51000,1348,https://cuni.cz/UKEN-1.html
+61,Carnegie Mellon University,1,128,Pittsburgh,United States,28,11,14000,1900,https://www.cmu.edu/
+62,University of Michigan,1,3,Chicago,United States,21,12,47000,1817,https://umich.edu/
+63,Cornell University,1,1,New York,United States,20,13,24000,1865,https://www.cornell.edu/
+64,Johns Hopkins University,1,9,Philadelphia,United States,22,14,27000,1876,https://www.jhu.edu/
+65,Duke University,1,129,Atlanta,United States,23,15,16000,1838,https://duke.edu/
+66,Northwestern University,1,3,Chicago,United States,26,16,22000,1851,https://www.northwestern.edu/
+67,New York University,1,1,New York,United States,27,17,51000,1831,https://www.nyu.edu/
+68,University of California Los Angeles,1,2,Los Angeles,United States,14,18,45000,1919,https://www.ucla.edu/
+69,University of Washington,1,7,Seattle,United States,29,19,48000,1861,https://www.washington.edu/
+70,University of Bristol,2,17,Bristol,United Kingdom,62,9,27000,1909,https://www.bristol.ac.uk/
+71,University of Glasgow,2,14,Glasgow,United Kingdom,73,10,30000,1451,https://www.gla.ac.uk/
+72,University of St Andrews,2,12,Edinburgh,United Kingdom,91,11,10000,1413,https://www.st-andrews.ac.uk/
+73,University of Birmingham,2,13,Birmingham,United Kingdom,87,12,35000,1900,https://www.birmingham.ac.uk/
+74,University of Sheffield,2,140,Sheffield,United Kingdom,95,13,29000,1905,https://www.sheffield.ac.uk/
+75,University of Alberta,3,24,Edmonton,Canada,119,4,38000,1908,https://www.ualberta.ca/
+76,McMaster University,3,18,Toronto,Canada,140,5,33000,1887,https://www.mcmaster.ca/
+77,University of Montreal,3,20,Montreal,Canada,118,6,67000,1878,https://www.umontreal.ca/en/
+78,University of Calgary,3,22,Calgary,Canada,200,7,33000,1966,https://www.ucalgary.ca/
+79,University of Queensland,4,28,Brisbane,Australia,47,4,53000,1909,https://www.uq.edu.au/
+80,Monash University,4,27,Melbourne,Australia,58,5,70000,1958,https://www.monash.edu/
+81,University of Western Australia,4,29,Perth,Australia,92,6,24000,1911,https://www.uwa.edu.au/
+82,University of Adelaide,4,30,Adelaide,Australia,108,7,27000,1874,https://www.adelaide.edu.au/
+83,University of Canterbury,5,35,Christchurch,New Zealand,258,4,17000,1873,https://www.canterbury.ac.nz/
+84,University of Waikato,5,36,Hamilton,New Zealand,375,5,12000,1964,https://www.waikato.ac.nz/
+85,Humboldt University of Berlin,6,38,Berlin,Germany,74,4,34000,1810,https://www.hu-berlin.de/en
+86,Free University of Berlin,6,38,Berlin,Germany,118,5,33000,1948,https://www.fu-berlin.de/en
+87,University of Göttingen,6,167,Göttingen,Germany,128,6,31000,1737,https://www.uni-goettingen.de/en/
+88,RWTH Aachen University,6,168,Aachen,Germany,138,7,45000,1870,https://www.rwth-aachen.de/cms/~a/root/?lidx=1
+89,Paris-Saclay University,7,46,Paris,France,16,4,48000,2019,https://www.universite-paris-saclay.fr/en
+90,École Normale Supérieure,7,46,Paris,France,47,5,2400,1794,https://www.ens.psl.eu/en
+91,University of Strasbourg,7,51,Strasbourg,France,372,6,52000,1538,https://en.unistra.fr/
+92,Aix-Marseille University,7,48,Marseille,France,301,7,74000,1409,https://www.univ-amu.fr/en
+93,Delft University of Technology,8,61,Delft,Netherlands,61,3,25000,1842,https://www.tudelft.nl/en/
+94,Wageningen University & Research,8,178,Wageningen,Netherlands,53,4,12000,1918,https://www.wur.nl/en.htm
+95,Leiden University,8,175,Leiden,Netherlands,111,5,30000,1575,https://www.universiteitleiden.nl/en
+96,Erasmus University Rotterdam,8,55,Rotterdam,Netherlands,72,6,31000,1913,https://www.eur.nl/en
+97,University College Cork,9,63,Cork,Ireland,298,3,21000,1845,https://www.ucc.ie/
+98,Dublin City University,9,62,Dublin,Ireland,439,4,17000,1975,https://www.dcu.ie/
+99,Polytechnic University of Milan,10,67,Milan,Italy,351,3,42000,1863,https://www.polimi.it/en
+100,University of Padua,10,184,Padua,Italy,243,4,65000,1222,https://www.unipd.it/en/
+101,University of Pisa,10,185,Pisa,Italy,383,5,50000,1343,https://www.unipi.it/index.php/english
+102,Autonomous University of Barcelona,11,73,Barcelona,Spain,193,3,40000,1968,https://www.uab.cat/web/universitat-autonoma-de-barcelona-1345467954774.html
+103,Autonomous University of Madrid,11,72,Madrid,Spain,210,4,26000,1968,http://www.uam.es/uam/en
+104,Pompeu Fabra University,11,73,Barcelona,Spain,186,5,12000,1990,https://www.upf.edu/en/
+105,University of Zurich,12,78,Zurich,Switzerland,70,3,26000,1833,https://www.uzh.ch/en.html
+106,University of Bern,12,81,Bern,Switzerland,114,4,17000,1834,https://www.unibe.ch/index_eng.html
+107,University of Geneva,12,79,Geneva,Switzerland,149,5,17000,1559,https://www.unige.ch/en/
+108,Stockholm University,13,83,Stockholm,Sweden,77,3,33000,1878,https://www.su.se/english/
+109,Lund University,13,86,Lund,Sweden,95,4,40000,1666,https://www.lunduniversity.lu.se/
+110,Aarhus University,14,88,Aarhus,Denmark,155,3,38000,1928,https://international.au.dk/
+111,Norwegian University of Science and Technology,15,92,Trondheim,Norway,367,2,41000,1910,https://www.ntnu.edu/
+112,University of Bergen,15,91,Bergen,Norway,185,3,17000,1946,https://www.uib.no/en
+113,Aalto University,16,93,Helsinki,Finland,127,2,12000,2010,https://www.aalto.fi/en
+114,University of Turku,16,95,Turku,Finland,286,3,20000,1920,https://www.utu.fi/en
+115,Osaka University,17,97,Osaka,Japan,72,3,23000,1931,https://www.osaka-u.ac.jp/en
+116,Tokyo Institute of Technology,17,96,Tokyo,Japan,56,4,10000,1881,https://www.titech.ac.jp/english/
+117,Tohoku University,17,206,Sendai,Japan,77,5,17000,1907,https://www.tohoku.ac.jp/en/
+118,Nanyang Technological University,18,102,Singapore,Singapore,13,2,33000,1991,https://www.ntu.edu.sg/
+119,Korea Advanced Institute of Science and Technology,19,103,Seoul,South Korea,39,2,10000,1971,https://www.kaist.ac.kr/en/
+120,POSTECH,19,104,Busan,South Korea,64,3,3000,1986,http://www.postech.ac.kr/eng/
+121,Shanghai Jiao Tong University,20,107,Shanghai,China,63,3,37000,1896,https://en.sjtu.edu.cn/
+122,Zhejiang University,20,210,Hangzhou,China,53,4,54000,1897,http://www.zju.edu.cn/english/
+123,Fudan University,20,107,Shanghai,China,31,5,33000,1905,https://www.fudan.edu.cn/en/
+124,University of Innsbruck,21,113,Innsbruck,Austria,281,2,28000,1669,https://www.uibk.ac.at/index.html.en
+125,Graz University of Technology,21,112,Graz,Austria,392,3,13000,1811,https://www.tugraz.at/en/home/
+126,Ghent University,22,117,Ghent,Belgium,143,2,44000,1817,https://www.ugent.be/en
+127,University of Porto,23,120,Porto,Portugal,357,2,32000,1911,https://www.up.pt/portal/en/
+128,University of Coimbra,23,121,Coimbra,Portugal,431,3,24000,1290,https://www.uc.pt/en
+129,Jagiellonian University,24,123,Krakow,Poland,293,2,42000,1364,https://en.uj.edu.pl/en_GB/start
+130,Warsaw University of Technology,24,122,Warsaw,Poland,511,3,30000,1826,https://www.pw.edu.pl/engpw
+131,Masaryk University,25,127,Brno,Czech Republic,551,2,32000,1919,https://www.muni.cz/en
+132,Brown University,1,4,Boston,United States,60,20,10000,1764,https://www.brown.edu/
+133,University of Texas at Austin,1,8,Austin,United States,43,21,51000,1883,https://www.utexas.edu/
+134,University of Wisconsin-Madison,1,134,Minneapolis,United States,41,22,44000,1848,https://www.wisc.edu/
+135,University of Colorado Boulder,1,133,Denver,United States,50,23,35000,1876,https://www.colorado.edu/
+136,University of Illinois Urbana-Champaign,1,3,Chicago,United States,48,24,48000,1867,https://illinois.edu/
+137,Georgia Institute of Technology,1,129,Atlanta,United States,35,25,27000,1885,https://www.gatech.edu/
+138,University of Southampton,2,142,Southampton,United Kingdom,124,14,22000,1862,https://www.southampton.ac.uk/
+139,University of Leeds,2,138,Leeds,United Kingdom,92,15,38000,1904,https://www.leeds.ac.uk/
+140,Durham University,2,139,Newcastle,United Kingdom,82,16,19000,1832,https://www.durham.ac.uk/
+141,University of Nottingham,2,141,Nottingham,United Kingdom,103,17,34000,1881,https://www.nottingham.ac.uk/
+142,University of Exeter,2,17,Bristol,United Kingdom,149,18,25000,1955,https://www.exeter.ac.uk/
+143,Queen's University,3,148,Kingston,Canada,240,8,24000,1841,https://www.queensu.ca/
+144,Western University,3,18,Toronto,Canada,190,9,31000,1878,https://www.uwo.ca/
+145,Simon Fraser University,3,19,Vancouver,Canada,298,10,35000,1965,https://www.sfu.ca/
+146,University of Ottawa,3,21,Ottawa,Canada,230,11,43000,1848,https://www.uottawa.ca/en
+147,University of Technology Sydney,4,26,Sydney,Australia,143,8,45000,1988,https://www.uts.edu.au/
+148,RMIT University,4,27,Melbourne,Australia,190,9,45000,1887,https://www.rmit.edu.au/
+149,Curtin University,4,29,Perth,Australia,193,10,58000,1967,https://www.curtin.edu.au/
+150,University of South Australia,4,30,Adelaide,Australia,268,11,37000,1991,https://www.unisa.edu.au/
+151,Massey University,5,157,Palmerston North,New Zealand,292,6,31000,1927,https://www.massey.ac.nz/
+152,Auckland University of Technology,5,33,Auckland,New Zealand,451,7,29000,2000,https://www.aut.ac.nz/
+153,University of Tübingen,6,166,Tübingen,Germany,78,8,28000,1477,https://uni-tuebingen.de/en/
+154,University of Bonn,6,161,Bonn,Germany,110,9,35000,1818,https://www.uni-bonn.de/en
+155,University of Freiburg,6,163,Freiburg,Germany,169,10,25000,1457,https://uni-freiburg.de/en/
+156,University of Frankfurt,6,41,Frankfurt,Germany,175,11,48000,1914,https://www.uni-frankfurt.de/en
+157,CentraleSupélec,7,46,Paris,France,138,8,4000,2015,https://www.centralesupelec.fr/en
+158,Sciences Po,7,46,Paris,France,261,9,14000,1872,https://www.sciencespo.fr/en/
+159,University of Lyon,7,47,Lyon,France,301,10,160000,2007,https://www.universite-lyon.fr/version-anglaise/
+160,University of Bordeaux,7,50,Bordeaux,France,280,11,56000,1441,https://www.u-bordeaux.com/
+161,University of Groningen,8,59,Groningen,Netherlands,80,7,30000,1614,https://www.rug.nl/
+162,Maastricht University,8,60,Maastricht,Netherlands,128,8,18000,1976,https://www.maastrichtuniversity.nl/
+163,Radboud University,8,176,Nijmegen,Netherlands,122,9,22000,1923,https://www.ru.nl/english/
+164,National University of Ireland Galway,9,64,Galway,Ireland,301,5,17000,1845,https://www.nuigalway.ie/
+165,University of Florence,10,68,Florence,Italy,403,6,51000,1321,https://www.unifi.it/changelang-eng.html
+166,University of Milan,10,67,Milan,Italy,301,7,64000,1923,https://www.unimi.it/en
+167,Sapienza University of Turin,10,71,Turin,Italy,501,8,70000,1404,https://en.unito.it/
+168,University of Naples Federico II,10,70,Naples,Italy,424,9,80000,1224,http://www.international.unina.it/
+169,University of Valencia,11,74,Valencia,Spain,581,6,65000,1499,https://www.uv.es/uvweb/college/en/university-valencia-1285845048380.html
+170,University of Navarra,11,73,Barcelona,Spain,251,7,11000,1952,https://www.unav.edu/en/
+171,University of Granada,11,76,Granada,Spain,501,8,60000,1531,https://www.ugr.es/en/
+172,University of Salamanca,11,77,Salamanca,Spain,601,9,26000,1218,https://www.usal.es/english
+173,University of Basel,12,82,Basel,Switzerland,138,6,13000,1460,https://www.unibas.ch/en.html
+174,University of Lausanne,12,80,Lausanne,Switzerland,101,7,15000,1537,https://www.unil.ch/central/en/home.html
+175,University of Gothenburg,13,84,Gothenburg,Sweden,185,5,37000,1891,https://www.gu.se/en
+176,Chalmers University of Technology,13,84,Gothenburg,Sweden,121,6,10000,1829,https://www.chalmers.se/en
+177,Linköping University,13,197,Linköping,Sweden,301,7,27000,1975,https://liu.se/en
+178,Copenhagen Business School,14,87,Copenhagen,Denmark,334,4,23000,1917,https://www.cbs.dk/en
+179,University of Southern Denmark,14,89,Odense,Denmark,350,5,29000,1966,https://www.sdu.dk/en
+180,University of Tromsø,15,202,Tromsø,Norway,350,4,17000,1968,https://en.uit.no/startsida
+181,University of Tampere,16,94,Tampere,Finland,401,4,21000,1925,https://www.tuni.fi/en
+182,University of Jyväskylä,16,204,Jyväskylä,Finland,352,5,15000,1863,https://www.jyu.fi/en
+183,Nagoya University,17,101,Nagoya,Japan,111,6,16000,1939,http://en.nagoya-u.ac.jp/
+184,Hokkaido University,17,99,Sapporo,Japan,137,7,18000,1876,https://www.global.hokudai.ac.jp/
+185,Kyushu University,17,98,Kyoto,Japan,150,8,19000,1903,https://www.kyushu-u.ac.jp/en/
+186,Yonsei University,19,103,Seoul,South Korea,85,4,26000,1885,https://www.yonsei.ac.kr/en_sc/
+187,Korea University,19,103,Seoul,South Korea,74,5,37000,1905,http://www.korea.edu/mbshome/mbs/en/index.do
+188,Sungkyunkwan University,19,103,Seoul,South Korea,97,6,26000,1398,https://www.skku.edu/eng/
+189,Nanjing University,20,211,Nanjing,China,131,6,33000,1902,https://www.nju.edu.cn/EN/
+190,Wuhan University,20,106,Beijing,China,257,7,55000,1893,https://en.whu.edu.cn/
+191,Medical University of Vienna,21,111,Vienna,Austria,201,4,8000,1365,https://www.meduniwien.ac.at/web/en/
+192,Medical University of Graz,21,112,Graz,Austria,501,5,4000,2004,https://www.medunigraz.at/en/
+193,Free University of Brussels,22,114,Brussels,Belgium,189,3,26000,1834,https://www.ulb.be/en
+194,University of Antwerp,22,116,Antwerp,Belgium,223,4,20000,2003,https://www.uantwerpen.be/en/
+195,Catholic University of Portugal,23,119,Lisbon,Portugal,601,4,11000,1967,https://www.ucp.pt/en
+196,Warsaw University of Life Sciences,24,122,Warsaw,Poland,901,4,25000,1816,https://www.sggw.edu.pl/en/
+197,Wrocław University of Science and Technology,24,124,Wroclaw,Poland,801,5,28000,1945,https://pwr.edu.pl/en/
+198,Brno University of Technology,25,127,Brno,Czech Republic,651,3,24000,1899,https://www.vut.cz/en/
+199,University of Economics Prague,25,126,Prague,Czech Republic,751,4,15000,1919,https://www.vse.cz/english/
+200,University of California San Diego,1,132,San Diego,United States,34,26,39000,1960,https://ucsd.edu/
+201,University of North Carolina Chapel Hill,1,134,Minneapolis,United States,52,27,30000,1789,https://www.unc.edu/
+202,University of Florida,1,130,Miami,United States,180,28,56000,1853,https://www.ufl.edu/
+203,Boston University,1,4,Boston,United States,104,29,33000,1839,https://www.bu.edu/
+204,Arizona State University,1,8,Austin,United States,209,30,74000,1885,https://www.asu.edu/
+205,University of Leicester,2,144,Leicester,United Kingdom,241,19,16000,1921,https://le.ac.uk/

@@ -14,6 +14,7 @@ import matplotlib.pyplot as plt
 from tabulate import tabulate
 from colorama import init, Fore, Style
 import math
+from datetime import datetime
 
 # Simplify import handling
 try:
@@ -373,12 +374,63 @@ class CourseSelectionAssistant:
             ax2.set_title(f"Criteria Scores for Top Program")
             
             plt.tight_layout()
-            plt.savefig("program_recommendations.png")
-            print(f"\n{Fore.GREEN}Chart saved as program_recommendations.png{Style.RESET_ALL}")
+            
+            # Create results directory if it doesn't exist
+            results_dir = os.path.join(os.path.dirname(__file__), "results")
+            os.makedirs(results_dir, exist_ok=True)
+            
+            # Save visualization to results directory
+            result_path = os.path.join(results_dir, "program_recommendations.png")
+            plt.savefig(result_path)
+            print(f"\n{Fore.GREEN}Chart saved as {result_path}{Style.RESET_ALL}")
+            
+            # Save recommendation data as JSON
+            self.save_recommendations_json(scored_programs.head(10))
+            
             plt.close()
             
         except Exception as e:
             print(f"{Fore.YELLOW}Could not create visualization: {e}{Style.RESET_ALL}")
+    
+    def save_recommendations_json(self, recommendations):
+        """Save recommendations as JSON for later reference."""
+        if recommendations is None or len(recommendations) == 0:
+            return
+            
+        try:
+            # Create results directory if it doesn't exist
+            results_dir = os.path.join(os.path.dirname(__file__), "results")
+            os.makedirs(results_dir, exist_ok=True)
+            
+            # Prepare data for JSON serialization
+            result_data = {
+                "success": True,
+                "timestamp": datetime.now().isoformat(),
+                "preferences": self.user_preferences,
+                "recommendations": []
+            }
+            
+            # Add recommendations
+            for _, rec in recommendations.iterrows():
+                rec_dict = {}
+                for column, value in rec.items():
+                    # Convert to appropriate Python type for JSON serialization
+                    if isinstance(value, (int, float, str, bool, type(None))):
+                        rec_dict[column] = value
+                    else:
+                        rec_dict[column] = str(value)
+                result_data["recommendations"].append(rec_dict)
+                
+            # Save to file
+            result_path = os.path.join(results_dir, "latest_recommendations.json")
+            with open(result_path, 'w') as f:
+                import json
+                json.dump(result_data, f, indent=2)
+                
+            print(f"{Fore.GREEN}Recommendations saved as {result_path}{Style.RESET_ALL}")
+            
+        except Exception as e:
+            print(f"{Fore.YELLOW}Could not save recommendations to JSON: {e}{Style.RESET_ALL}")
     
     def run(self):
         """Run the entire decision support process."""

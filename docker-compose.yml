@@ -2,13 +2,36 @@ version: '3.8'
 
 services:
   app:
-    build: .
+    build: 
+      context: .
+      dockerfile: Dockerfile
     ports:
       - "5000:5000"
     volumes:
       - ./data:/app/data
+      - ./logs:/app/logs
     environment:
       - PYTHONPATH=/app
-      - DEBUG=1
+      - FLASK_APP=app.py
+      - FLASK_ENV=production
+      - DB_PATH=/app/data/studentDSS.db
+      - DEBUG=0
     restart: unless-stopped
     container_name: student-dss-api
+    healthcheck:
+      test: ["CMD", "python", "-c", "import requests; requests.get('http://localhost:5000/health', timeout=10)"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+    depends_on: []
+    networks:
+      - student-dss-network
+
+networks:
+  student-dss-network:
+    driver: bridge
+
+volumes:
+  student-data:
+    driver: local

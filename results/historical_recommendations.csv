@@ -1,0 +1,16 @@
+date,user_id,field_of_study,preferred_country,program_selected,university_selected,country_selected,tuition_cost,match_percentage,satisfaction_score
+2023-01-10,1001,Computer Science,United States,Master of Computer Science,Massachusetts Institute of Technology,United States,50000,94.2,9
+2023-01-15,1002,Business,United Kingdom,MBA,Harvard University,United States,70000,88.5,8
+2023-02-03,1003,Engineering,Germany,Master of Engineering,Technical University of Munich,Germany,1500,91.7,9
+2023-02-17,1004,Medicine,Australia,Bachelor of Medicine,University of Sydney,Australia,40000,87.3,8
+2023-03-05,1005,Computer Science,Canada,Master of Computer Science,University of Toronto,Canada,25000,90.1,9
+2023-03-22,1006,Environmental Sciences,Sweden,MSc in Sustainable Technology,KTH Royal Institute of Technology,Sweden,0,92.8,10
+2023-04-08,1007,Finance,Singapore,MSc in Finance,Imperial College London,United Kingdom,38000,85.4,7
+2023-04-19,1008,Computer Science,Germany,Master in Machine Learning,Technical University of Munich,Germany,1500,93.5,9
+2023-05-02,1009,Engineering,Japan,PhD in Robotics,University of Tokyo,Japan,8000,86.9,8
+2023-05-14,1010,Literature,France,Master of Arts in Literature,Sorbonne University,France,2000,89.2,8
+2023-05-29,1011,Computer Science,United States,MSc in Artificial Intelligence,Massachusetts Institute of Technology,United States,52000,91.3,9
+2023-06-10,1012,Business,Canada,Bachelor of Business Administration,University of British Columbia,Canada,28000,84.6,7
+2023-06-24,1013,Environmental Sciences,Netherlands,MSc in Sustainable Development,University of Amsterdam,Netherlands,16000,90.8,9
+2023-07-05,1014,Computer Science,Singapore,PhD in Computer Science,National University of Singapore,Singapore,32000,88.1,8
+2023-07-15,1015,Engineering,United Kingdom,Master of Engineering,Imperial College London,United Kingdom,35000,92.4,9

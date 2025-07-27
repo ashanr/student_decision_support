@@ -1,0 +1,64 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: student-dss
+  labels:
+    app: student-dss
+spec:
+  replicas: 3  # Start with 3 replicas
+  selector:
+    matchLabels:
+      app: student-dss
+  template:
+    metadata:
+      labels:
+        app: student-dss
+    spec:
+      containers:
+      - name: student-dss
+        image: student-dss:latest  # Replace with your actual image name
+        imagePullPolicy: IfNotPresent
+        ports:
+        - containerPort: 5000
+        env:
+        - name: PYTHONPATH
+          value: /app
+        - name: FLASK_APP
+          value: app.py
+        - name: FLASK_ENV
+          value: production
+        - name: DB_PATH
+          value: /app/data/studentDSS.db
+        - name: DEBUG
+          value: "0"
+        resources:
+          limits:
+            cpu: "1"
+            memory: "1Gi"
+          requests:
+            cpu: "200m"
+            memory: "512Mi"
+        readinessProbe:
+          httpGet:
+            path: /health
+            port: 5000
+          initialDelaySeconds: 10
+          periodSeconds: 30
+        livenessProbe:
+          httpGet:
+            path: /health
+            port: 5000
+          initialDelaySeconds: 30
+          periodSeconds: 60
+        volumeMounts:
+        - name: data-volume
+          mountPath: /app/data
+        - name: logs-volume
+          mountPath: /app/logs
+      volumes:
+      - name: data-volume
+        persistentVolumeClaim:
+          claimName: student-dss-data-pvc
+      - name: logs-volume
+        persistentVolumeClaim:
+          claimName: student-dss-logs-pvc

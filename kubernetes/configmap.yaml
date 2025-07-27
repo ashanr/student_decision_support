@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: student-dss-config
+data:
+  FLASK_APP: app.py
+  FLASK_ENV: production
+  DEBUG: "0"
+  PYTHONPATH: /app

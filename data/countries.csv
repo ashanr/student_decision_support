@@ -1,0 +1,26 @@
+id,name,code,region,language,average_living_cost,average_tuition_cost,safety_index,quality_of_life_index
+1,United States,US,North America,English,1850,35000,70,82
+2,United Kingdom,UK,Europe,English,1700,28000,75,84
+3,Canada,CA,North America,English/French,1500,22000,85,90
+4,Australia,AU,Oceania,English,1600,30000,82,88
+5,New Zealand,NZ,Oceania,English,1400,25000,90,92
+6,Germany,DE,Europe,German,1000,1500,80,85
+7,France,FR,Europe,French,1200,3000,78,83
+8,Netherlands,NL,Europe,Dutch,1300,15000,83,88
+9,Ireland,IE,Europe,English/Irish,1600,24000,80,86
+10,Italy,IT,Europe,Italian,1100,2500,75,80
+11,Spain,ES,Europe,Spanish,950,2200,78,85
+12,Switzerland,CH,Europe,German/French/Italian,2200,25000,92,95
+13,Sweden,SE,Europe,Swedish,1500,0,88,92
+14,Denmark,DK,Europe,Danish,1700,0,90,93
+15,Norway,NO,Europe,Norwegian,1900,0,92,94
+16,Finland,FI,Europe,Finnish,1400,0,91,93
+17,Japan,JP,Asia,Japanese,1400,8000,88,80
+18,Singapore,SG,Asia,English/Mandarin,2000,30000,95,87
+19,South Korea,KR,Asia,Korean,1200,7000,82,85
+20,China,CN,Asia,Mandarin,800,9000,75,70
+21,Austria,AT,Europe,German,1300,1800,87,90
+22,Belgium,BE,Europe,Dutch/French/German,1250,2000,80,86
+23,Portugal,PT,Europe,Portuguese,900,1500,83,87
+24,Poland,PL,Europe,Polish,700,3000,75,78
+25,Czech Republic,CZ,Europe,Czech,800,4000,82,84

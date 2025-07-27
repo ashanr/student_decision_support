@@ -1,0 +1,117 @@
+{
+  "success": true,
+  "timestamp": "2024-01-30T14:25:18.123456",
+  "preferences": {
+    "field_of_study": "Computer Science",
+    "degree_level": "Master",
+    "max_tuition": 30000,
+    "max_living_expenses": 1500,
+    "preferred_countries": ["Germany", "Canada", "Netherlands"],
+    "language_preference": "Any language with English programs"
+  },
+  "recommendations": [
+    {
+      "id": 3,
+      "name_program": "Master of Data Science",
+      "name_university": "Technical University of Munich",
+      "country": "Germany",
+      "city": "Munich",
+      "tuition_per_year": 1500,
+      "language": "English",
+      "duration": 2,
+      "field": "Computer Science",
+      "level": "Master",
+      "ranking_global": 50,
+      "match_percentage": 95.2,
+      "student_data_boost": 0.03,
+      "explanation": "Recommended because: Strong match with your academic interests; Fits well within your budget at $1,500/year; Well-ranked institution (#50 globally); Located in your preferred country (Germany). Similar students to your profile have been satisfied with programs in Germany."
+    },
+    {
+      "id": 5,
+      "name_program": "Master of Computer Science",
+      "name_university": "University of Toronto",
+      "country": "Canada",
+      "city": "Toronto",
+      "tuition_per_year": 25000,
+      "language": "English",
+      "duration": 2,
+      "field": "Computer Science",
+      "level": "Master",
+      "ranking_global": 25,
+      "match_percentage": 92.8,
+      "student_data_boost": 0.02,
+      "explanation": "Recommended because: Strong match with your academic interests; Well-ranked institution (#25 globally); Matches your language preferences; Located in your preferred country (Canada). Similar students to your profile have been satisfied with programs in Canada."
+    },
+    {
+      "id": 10,
+      "name_program": "MSc in Sustainable Development",
+      "name_university": "University of Amsterdam",
+      "country": "Netherlands",
+      "city": "Amsterdam",
+      "tuition_per_year": 16000,
+      "language": "English",
+      "duration": 2,
+      "field": "Environmental Sciences",
+      "level": "Master",
+      "ranking_global": 65,
+      "match_percentage": 85.1,
+      "student_data_boost": 0.04,
+      "explanation": "Recommended because: Fits well within your budget at $16,000/year; Well-ranked institution (#65 globally); Located in your preferred country (Netherlands). Similar students to your profile have been highly satisfied with programs in Netherlands."
+    },
+    {
+      "id": 17,
+      "name_program": "Master in Machine Learning",
+      "name_university": "Technical University of Munich",
+      "country": "Germany",
+      "city": "Munich",
+      "tuition_per_year": 1500,
+      "language": "English",
+      "duration": 2,
+      "field": "Computer Science",
+      "level": "Master",
+      "ranking_global": 50,
+      "match_percentage": 84.5,
+      "student_data_boost": 0.01,
+      "explanation": "Recommended because: Strong match with your academic interests; Fits well within your budget at $1,500/year; Well-ranked institution (#50 globally); Located in your preferred country (Germany)."
+    },
+    {
+      "id": 14,
+      "name_program": "Bachelor of Computer Science",
+      "name_university": "Massachusetts Institute of Technology",
+      "country": "United States",
+      "city": "Boston",
+      "tuition_per_year": 45000,
+      "language": "English",
+      "duration": 4,
+      "field": "Computer Science",
+      "level": "Bachelor",
+      "ranking_global": 1,
+      "match_percentage": 75.3,
+      "student_data_boost": 0.0,
+      "explanation": "Recommended because: Strong match with your academic interests; Top-ranked institution (#1 globally); Matches your language preferences. Note: Exceeds your tuition budget and is not in your preferred countries."
+    }
+  ],
+  "similar_students": [
+    {
+      "id": 42,
+      "field_of_study": "Computer Science",
+      "gpa": 3.7,
+      "final_destination": "Germany",
+      "satisfaction_score": 9
+    },
+    {
+      "id": 157,
+      "field_of_study": "Data Science",
+      "gpa": 3.4,
+      "final_destination": "Netherlands",
+      "satisfaction_score": 8
+    },
+    {
+      "id": 215,
+      "field_of_study": "Computer Science",
+      "gpa": 3.6,
+      "final_destination": "Canada",
+      "satisfaction_score": 8
+    }
+  ]
+}

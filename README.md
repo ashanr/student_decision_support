@@ -105,6 +105,98 @@ The following environment variables can be configured in the `.env` file:
 - `API_PORT`: Port for the API server (default: `5000`)
 - `DEBUG_MODE`: Enable debug mode (default: `false`)
 
+## Kubernetes Deployment
+
+The project includes Kubernetes configuration for production deployment, providing scalability, high availability, and easier management of the application.
+
+### Prerequisites for Kubernetes Deployment
+
+- Kubernetes cluster (e.g., Minikube, GKE, AKS, EKS)
+- kubectl CLI configured to communicate with your cluster
+- Docker image of the application pushed to a container registry
+
+### Kubernetes Setup
+
+1. Apply the Kubernetes configurations:
+   ```bash
+   # Create persistent volume claims for data and logs
+   kubectl apply -f kubernetes/pvc.yaml
+   
+   # Apply ConfigMap for environment variables
+   kubectl apply -f kubernetes/configmap.yaml
+   
+   # Deploy the application
+   kubectl apply -f kubernetes/deployment.yaml
+   
+   # Create the service
+   kubectl apply -f kubernetes/service.yaml
+   
+   # Set up horizontal pod autoscaling
+   kubectl apply -f kubernetes/hpa.yaml
+   
+   # Configure ingress (if using an ingress controller)
+   kubectl apply -f kubernetes/ingress.yaml
+   ```
+
+2. Verify the deployment:
+   ```bash
+   # Check deployment status
+   kubectl get deployments
+   
+   # Check running pods
+   kubectl get pods
+   
+   # Check services
+   kubectl get services
+   
+   # Check persistent volume claims
+   kubectl get pvc
+   ```
+
+3. Access the application:
+   - When using Ingress, access via the configured domain (student-dss.example.com)
+   - For testing, you can port-forward the service:
+     ```bash
+     kubectl port-forward svc/student-dss 8080:80
+     ```
+     Then access the application at http://localhost:8080
+
+### Kubernetes Resources
+
+The deployment uses the following Kubernetes resources:
+
+- **Deployment**: Manages the application pods, ensuring the desired number of replicas are running
+- **Service**: Exposes the application to the network
+- **PersistentVolumeClaim**: Provides persistent storage for data and logs
+- **ConfigMap**: Stores non-sensitive configuration data
+- **HorizontalPodAutoscaler**: Automatically scales the number of pods based on CPU and memory usage
+- **Ingress**: Configures external access to the services
+
+### Scaling the Application
+
+The application is configured with horizontal pod autoscaling:
+- Minimum 2 replicas, maximum 10 replicas
+- Scales up when CPU utilization exceeds 70% or memory utilization exceeds 80%
+
+To manually scale the deployment:
+```bash
+kubectl scale deployment student-dss --replicas=5
+```
+
+### Monitoring and Logs
+
+View logs from the application:
+```bash
+# Get pod names
+kubectl get pods
+
+# View logs for a specific pod
+kubectl logs student-dss-pod-name
+
+# Stream logs from a pod
+kubectl logs -f student-dss-pod-name
+```
+
 ## Base URL
 
 All endpoints are relative to: `http://localhost:5000`
